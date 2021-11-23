@@ -1,0 +1,136 @@
+*{margin:0px;}
+a {    color:black;
+    text-decoration: none;
+    }
+.list div{padding-left:20px;}
+   #content a {
+    color:black;
+    text-decoration: none;
+    display:block;
+    height:100%;
+    width:100%;
+    top:0;
+    left:0;
+    padding:0px;
+    }
+    #content {
+    grid-template-columns: 100px 100px 100px 100px;
+    position:fixed;
+    display:inline-block;
+    font-size: 30px;
+    float:left;
+    margin-bottom: 0px;
+    margin-left: 5px;
+    width:400px;
+    }
+    div{
+    }
+    h1 {
+    font-size:35px;
+    text-align: center;
+    margin:-1px;
+    padding:20px;
+    color: #a70000;
+    }
+    li{
+    margin : 0px;
+    border : 1px solid rgb(189, 189, 189);
+    padding : 0px;
+    }
+
+
+    .bodyCon div{
+    font-size:20px;
+    padding:20px;
+    }
+    #grid{
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    }
+    .lists{
+      color:black;
+      cursor: pointer;
+      display:block;
+      height:100%;
+      width:100%;
+      position:absolute;
+      top:0;
+      left:0;
+    }
+    .article {
+      border-left: 1px solid rgb(189, 189, 189);
+      padding-left: 30px;
+    }
+
+#body
+{
+    width: calc(100% - 428px);
+    position: absolute;
+    top: 120px;
+    margin-left: 410px;
+    background-color:rgb(189, 189, 189);
+}
+.bodyCon
+{
+border:0px;
+    background-color:white;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 30px;
+    height: 100%;
+}
+.dot{
+    border-bottom: 4px dotted rgb(189, 189, 189);
+}
+
+    .list{
+    padding-top:20px;
+     padding-bottom:20px;
+    }
+    input{
+    width:100%;
+    height:40px;
+    }
+    .dot div{
+        display:inline-block;
+        text-align:center;
+        padding:0px;
+    }
+    .in1{
+    width:20%;
+
+    }
+    .in2{
+    width:calc(70% + 20px);
+    padding:0px;
+    }
+    label{
+    float:left;
+    font-size:20px;
+    color:grey;
+
+    }
+    input[type=checkbox]{
+    width:20px;
+    height:20px;
+    }
+    .list div
+    {
+    padding:15px;
+    }
+    #thead{
+    border-bottom:1px solid black;
+
+    }
+    td
+    {
+        text-align:center;
+    }
+    #table{
+    width:calc(110% - 90px);
+    }
+    .bodyCon .key{
+    padding:5px;
+    }
+
+

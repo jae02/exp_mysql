@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+<script	src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="../static/js/main.js"></script>
+    <link rel="stylesheet" href="../static/css/main.css" />
+</head>
+<body>
+<img style="position:relative;left:50%;margin-left:-50px;width:100px;heigh:100px;" src ="../static/image/logo.png"/>
+
+  <div id="content">
+      <span><a class="list" href="/search">Main</a></span>
+      <span><a class="list" href="/search2" >video</a></span>
+      <span><a class="list" id="selec" href="/search3" >keyword</a></span>
+  </div>
+
+  <div id="{{keywordlist[0]}}">
+      <label for="{{keywordlist[0]}}" style="font-size:30px; font-weight:bold; color:#a70000;margin:25px;">{{keywordlist[0]}}</label>
+  </div>
+
+
+  <div>
+    <ol  id="listContainer1">
+        <li class = "listItem1">
+            <div class="itemName1">
+
+            </div>
+        </li>
+    </ol>
+  </div>
+
+  <div>
+    <ol  id="listContainer">
+        <li class = "listItem">
+            <div class="itemName">
+
+            </div>
+        </li>
+    </ol>
+  </div>
+
+<script>
+</script>
+
+
+<div>
+
+
+</div>
+<script>
+     makeList({{videoList|safe}},{{keywordlist|safe}});
+     makeList1({{videoList1|safe}},{{keywordlist|safe}});
+</script>
+</body>
+</html>
